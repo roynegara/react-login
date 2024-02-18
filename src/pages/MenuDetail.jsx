@@ -30,7 +30,14 @@ const MenuDetail = () => {
     <div>
       {" "}
       <Navbar />
-      <div style={{ margin: "15px", textAlign: "center", border: "10px solid black", borderRadius: "10px" }}>
+      <div
+        style={{
+          margin: "15px",
+          textAlign: "center",
+          border: "10px solid black",
+          borderRadius: "10px",
+          backgroundColor: "yellow",
+        }}>
         <h1>Menu Detail</h1>
         <h1>Jenis Menu : {menu?.type}</h1>
         <h1>Nama Menu : {menu?.name}</h1>

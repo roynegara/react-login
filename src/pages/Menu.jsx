@@ -40,7 +40,8 @@ const Menu = () => {
             padding: "20px",
             marginBottom: "20px",
             textAlign: "center",
-            alignContent: "center",
+              alignContent: "center",
+            backgroundColor: "grey",
           }}>
           <h1>{item.type}</h1>
           <h3>{item.description}</h3>
