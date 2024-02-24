@@ -75,7 +75,7 @@ const Login = () => {
           />
         </div>
               <button onClick={handleLogin}>Login</button>
-              <button>Register</button>
+              <button onClick={() => navigate("/register")}>Register</button>
       </div>
     </div>
   );
