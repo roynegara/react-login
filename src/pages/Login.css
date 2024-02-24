@@ -1,0 +1,15 @@
+.login {
+  background: url("https://img.freepik.com/free-photo/beautiful-mountains-landscape_23-2151151104.jpg?t=st=1708749087~exp=1708752687~hmac=cd885ebb328d255cc38974c21cdb8dcb6d1f317571b54ed48a7f946039fec642&w=1380");
+  height: 100vh;
+  background-size: cover;
+}
+
+.login-form {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.3);
+  color: #eaeaea;
+}
+
+.login-form button {
+  cursor: pointer;
+}
